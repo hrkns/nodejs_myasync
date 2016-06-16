@@ -1,11 +1,12 @@
 "use strict";
 
 /*
-	implementacion personal de un "secuenciador" para operaciones asincronas
+	Implementacion personal de un "secuenciador" para operaciones asincronas en NodeJS
 	POR IMPLEMENTAR: metodo 'go' que permitiria ir de manera selectiva a cualquier funcion de la secuencia dada
 */
 
 module.exports = {
+	//parms is an array of functions
 	async : function (parms) {
 		var __POS__ = 0;
 		var n = parms.length;
