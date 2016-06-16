@@ -3,7 +3,7 @@
 It's an small module for NodeJs that let us implement asynchronous operations, putting the functions in a array
 
 Example
-
+```javascript
 //"Callback hell" way:
 
 func_1(parms, function(x, y){
@@ -54,3 +54,4 @@ var seguimiento = new async([
     });
   }
 ]).start();
+```
